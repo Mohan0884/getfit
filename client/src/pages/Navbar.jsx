@@ -19,8 +19,8 @@ function Navbar({setNavbar,showSetNavbar}) {
           
             <Link  className="nav-links-link" key="1" to="/dashboard">Home</Link>
             <Link  className="nav-links-link" key="2" to="/dashboard/profile">Profile</Link>
-            {/* <Link  className="nav-links-link" key={item.key} to={item.path}>{item.title}</Link>
-            <Link  className="nav-links-link" key={item.key} to={item.path}>{item.title}</Link> */}
+            <Link  className="nav-links-link" key="3" to="/dashboard/admin">Admin</Link>
+            <Link  className="nav-links-link" key="4" to="/dashboard/trainings">Trainings</Link>
             
           
           
