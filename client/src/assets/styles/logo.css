@@ -1,0 +1,16 @@
+.landing-logo{
+    font-size: 2rem;
+    color:white;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    user-select: none;
+}
+.landing-logo:hover{
+    cursor: pointer;
+      
+}
+.landing-logo-yellow{
+    color:#FFC700;
+}

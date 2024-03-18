@@ -1,0 +1,142 @@
+.form{
+    width: 100%;
+    min-height:100vh;
+    background-color: #292929;
+}
+.forms{
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    font-style: normal;
+}
+.forms-left{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.forms-right{
+    display: flex;
+    flex-direction: column;
+    background-color: #00000044;
+    align-items: center;
+    padding:30px;
+    height: auto;
+    min-width: 380px;
+    width: 35%;
+    border-radius: 20px;
+
+}
+.form-image{
+    min-width: 300px;
+    width:100%
+}
+.form-row{
+    height:30px;
+    width: 90%;
+    margin: 20px;
+}
+.form-input{
+    height: 40px;
+    padding:15px 20px;
+    width: 90%;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: #faf6f672;
+    font-weight: bolder;
+    background-color: black;
+    border: none;
+    min-width: 120px;
+    outline: none;
+}
+.forms-right h4{
+    color: #FFC700;
+}
+.landing-logo{
+    font-size: 4rem;
+    color:white;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    user-select: none;
+}
+.landing-logo:hover{
+    cursor: pointer;
+      
+}
+.landing-logo-yellow{
+    color:#FFC700;
+}
+.submit-btn{
+    background-color: #FFC700;
+    color:white;
+    border:none;
+    font-size: 0.8rem;
+    padding:10px 20px;
+    margin:10px 0px;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 10px;
+    width: 150px;
+}
+.submit-btn:hover{
+    cursor: pointer;
+}
+.link-end{
+    color: white;
+}
+.link-end-bold{
+    color:#FFC700;
+}
+@media (max-width:950px){
+    .forms{
+        padding: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-weight: bold;
+        font-style: normal;
+    }
+}
+
+/* profile.css */
+
+.form-row{
+    height: auto;
+
+}
+.form-rows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #292929;
+}
+.body-measures{
+    background-color: #292929;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    margin:10px;
+}
+.form-images{
+    width: 300px;
+    height: 300px;
+    border:20px solid #FFC700;
+    border-radius: 50%;
+}
