@@ -36,7 +36,7 @@ const logoutUser=async ()=>{
       <Dashboard />
       <div className='dash-nav'>
       <Navbar showSetNavbar={showSetNavbar} setNavbar={setNavbar} />
-      <NavMenu setNavbar={setNavbar}/>
+      {setNavbar && <NavMenu showSetNavbar={showSetNavbar}/>}
       <Outlet context={user}/>
       </div>
     </div>

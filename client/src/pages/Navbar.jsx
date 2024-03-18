@@ -6,19 +6,23 @@ import { IoMenuSharp } from "react-icons/io5";
 import {NavLinkData} from '../components/NavLinkData'
 function Navbar({setNavbar,showSetNavbar}) {
     const data=useDashboardContext();
-    function handleClick(){
+    function handleClick(e){
+      e.preventDefault();
       showSetNavbar(!setNavbar);
     }
+    
    
   return (
     <div className='navbar-home'>
         <Link className='landing-logo'> Get<span className='landing-logo-yellow'>Fit</span></Link>
         <div className="nav-links">
-          {NavLinkData.map((item)=>{
-            return (
-              <NavLink className="nav-links-link"  key={item.key} to={item.path}>{item.title}</NavLink>
-            )
-          })}
+          
+            <Link  className="nav-links-link" key="1" to="/dashboard">Home</Link>
+            <Link  className="nav-links-link" key="2" to="/dashboard/profile">Profile</Link>
+            {/* <Link  className="nav-links-link" key={item.key} to={item.path}>{item.title}</Link>
+            <Link  className="nav-links-link" key={item.key} to={item.path}>{item.title}</Link> */}
+            
+          
           
           
           
