@@ -6,7 +6,6 @@ import { useDashboardContext } from '../pages/DashboardLayout';
 function NavMenu({showSetNavbar}) {
 
     function handleFalse(e){
-        showSetNavbar(false);
     }
       const user=useDashboardContext();
       console.log(user.user);
