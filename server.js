@@ -111,7 +111,7 @@ app.post('/',(req,res)=>{
 
 //Not found middleware
 app.get('*',(req,res)=>{
-    res.sendFile(path.resolve(--dirname,'./public','index.html'));
+    res.sendFile(path.resolve(__dirname,'./public','index.html'));
 })
 
 app.use('*',(req,res)=>{
